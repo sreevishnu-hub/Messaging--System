@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+env/
+ 
+# Ignore environment files
+.env
+.ngrok2/
+ngrok.yml
+ 
+# Ignore logs
+logs/
+*.log
+ 
+# Python cache
+__pycache__/
+*.pyc
+ 
+# OS files
+.DS_Store
+ 
+# Celery/PID files
+*.pid
+ 
+# IDE config
+.vscode/
+.idea/
